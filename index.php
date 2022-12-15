@@ -53,17 +53,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+     <!-- style -->
+     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div>
-        <?php
-         foreach ($arrgoogle as $googleClass ) {
-            foreach($googleClass as $google) {
-
-                echo $google;
+    <header>
+        <ul class="list-google">
+            <li class="list-border">Introduzione</li>
+            <li class="list-border">Norme sulla privacy</li>
+            <li class="list-border">Termini di servizio</li>
+            <li class="list-border">Tecnologie </li>
+            <li class="list-border">Domande frequenti</li>
+        </ul>
+    </header>
+    <main>
+        <div>
+            <?php
+             foreach ($arrgoogle as $googleClass ) {
+                foreach($googleClass as $google) {
+                    echo $google;
+            }
         }
-    }
-        ?>
-    </div>
+            ?>
+        </div>
+    </main>
 </body>
 </html>

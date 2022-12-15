@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border-bottom: 1px solid lightgray;
+    height: 12vh;
+}
+.list-google{
+    display: flex;
+    list-style: none;
+    font-size: 1.2em;
+    gap: 2em;
+    margin: 0 4em;
+    padding: 1em 0;
+}
+.list-border{
+    padding: 1em 0;
+}
+.list-border:hover{
+    border-bottom: 1px solid blue;
+    cursor: pointer;
+}
+main{
+    margin: 4em 15em;
+}
