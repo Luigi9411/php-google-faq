@@ -55,6 +55,15 @@
     <title>Google</title>
 </head>
 <body>
-    
+    <div>
+        <?php
+         foreach ($arrgoogle as $googleClass ) {
+            foreach($googleClass as $google) {
+
+                echo $google;
+        }
+    }
+        ?>
+    </div>
 </body>
 </html>
